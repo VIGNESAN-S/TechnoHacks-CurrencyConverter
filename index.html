@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./assate/style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Amount">
+        </div>
+        <div class="input-group-1">
+            <label for="from">From:</label>
+            <select id="fromCurrency" name="from">
+            </select>
+            <label for="to">To:</label>
+            <select id="toCurrency" name="to">
+            </select>
+        </div>
+        <button id="convert">Convert</button>
+        <div class="result">
+            <h4>Converted Amount: <span id="convertedAmount">0</span></h4>
+        </div>
+    </div>
+    <script src="./assate/index.js"></script>
+</body>
+</html>
